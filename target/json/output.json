@@ -1,0 +1,316 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9913835798,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a new user account is created",
+            "match": {
+              "location": "StepDefinitions.a_new_user_account_is_created()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#This step would normally be broken down into several steps and have its own feature file"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 3374679185,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify a user with correct login credentials can log in",
+        "description": "",
+        "id": "test;verify-a-user-with-correct-login-credentials-can-log-in",
+        "after": [
+          {
+            "result": {
+              "duration": 1175494343,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.runDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6608189545,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user navigates to the BBC homepage",
+            "match": {
+              "location": "StepDefinitions.the_user_navigates_to_the_BBC_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183076875,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on the My Account link",
+            "match": {
+              "location": "StepDefinitions.clicks_on_the_sign_in_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651701112,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enters a valid username",
+            "match": {
+              "location": "StepDefinitions.enters_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144397744,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enters a valid password",
+            "match": {
+              "location": "StepDefinitions.enters_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3350848434,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks the submit button",
+            "match": {
+              "location": "StepDefinitions.clicks_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1542355606,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicks on the My Account link",
+            "match": {
+              "location": "StepDefinitions.clicks_on_the_sign_in_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228779764,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "navigates to the user settings page",
+            "match": {
+              "location": "StepDefinitions.navigate_to_the_user_settings_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59898251,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the correct user is logged in",
+            "match": {
+              "location": "StepDefinitions.verify_the_correct_user_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11028443428,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a new user account is created",
+            "match": {
+              "location": "StepDefinitions.a_new_user_account_is_created()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2071749083,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Forgotten password flow",
+        "description": "",
+        "id": "test;forgotten-password-flow",
+        "after": [
+          {
+            "result": {
+              "duration": 957232126,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.runDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4838621066,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user navigates to the BBC homepage",
+            "match": {
+              "location": "StepDefinitions.the_user_navigates_to_the_BBC_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160018403,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicks on the My Account link",
+            "match": {
+              "location": "StepDefinitions.clicks_on_the_sign_in_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2904748909,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clicks the need help signin in link",
+            "match": {
+              "location": "StepDefinitions.clicks_the_need_help_signin_in_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234485870,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicks on the forgotten password link",
+            "match": {
+              "location": "StepDefinitions.clicks_on_the_forgotten_password_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179672865,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "enters a valid email address",
+            "match": {
+              "location": "StepDefinitions.enters_a_valid_email_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 738290535,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clicks the submit button",
+            "match": {
+              "location": "StepDefinitions.clicks_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3588493990,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "follows the link from within the received email",
+            "match": {
+              "location": "StepDefinitions.follows_the_link_from_within_the_received_email()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "test",
+    "description": "",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "SignIn.feature"
+  }
+]
