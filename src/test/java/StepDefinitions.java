@@ -18,7 +18,6 @@ public class StepDefinitions {
     AccountPage accountPage;
     Page page;
     HomePage homePage;
-
     WebDriver driver;
 
     @Before
@@ -34,8 +33,6 @@ public class StepDefinitions {
 
         AccountPage.userName = null;
         AccountPage.newUser = null;
-
-
         driver.quit();
     }
 
@@ -61,7 +58,6 @@ public class StepDefinitions {
     public void the_user_navigates_to_the_BBC_homepage() {
         driver.manage().deleteAllCookies();
         homePage = new HomePage(driver).navigateToHomePage();
-
     }
 
     @Then("^clicks on the My Account link$")
@@ -88,7 +84,6 @@ public class StepDefinitions {
     @Then("^navigates to the user settings page$")
     public void navigate_to_the_user_settings_page() {
         accountPage.clickOnUserSetting();
-
     }
 
     @Then("^verify the correct user is logged in$")
@@ -105,7 +100,6 @@ public class StepDefinitions {
     public void enters_a_valid_email_address() {
         accountPage.inputCorrectEmail();
     }
-
 
     @Then("^clicks on the forgotten password link$")
     public void clicks_on_the_forgotten_password_link() {
